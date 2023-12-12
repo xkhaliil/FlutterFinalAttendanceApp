@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: university-management-service
+  datasource:
+    url: jdbc:mysql://localhost:3306/university_flatr?createDatabaseIfNotExist=true&useSSL=false&serverTimezone=UTC
+    username: root
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+server:
+  port: 8055
